@@ -1,0 +1,21 @@
+
+<strong> Title:</strong> {{song.title}} <br>
+
+Song Price: {{song.price}}<br>
+
+Number of Plays {{song.playCount}}
+
+{{#if isPopular}}
+People like this song - it's POPULAR
+{{/if}}
+
+{{#if isPricey}}
+$$
+This songs a bit pricey :|
+
+{{else}}
+$
+This song is not that expensive!
+
+{{/if}}
+<br><br>
